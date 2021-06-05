@@ -145,3 +145,53 @@ body{
 	background-repeat: no-repeat;
 	top: 5px;
 }
+/*TABLET*/
+@media(max-width: 1030px){
+	#header-sub-container{
+		text-align: center;
+	}
+	#logo{
+		float: none;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	#navigation{
+		float: none;
+		width: 100%;
+	}
+
+	#navigation ul li{
+		float: none;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.service-item{
+		width: 100%;
+		float: none;
+		margin-bottom: 40px;
+	}
+	#project-container h2{
+		text-align: center;
+	}
+	#project-sub-container .project-items{
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.footer-items{
+		float: none;
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	#footer-item-second p{
+		display: inline-block;
+	}
+	#footer{
+		text-align: center;
+	}
+}
+/*MOBILE*/
+@media(max-width: 580px){
+
+}
