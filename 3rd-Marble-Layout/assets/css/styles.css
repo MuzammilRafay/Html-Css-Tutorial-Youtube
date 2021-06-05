@@ -97,3 +97,51 @@ body{
 #project-sub-container .project-items p{
 	
 }
+#testimonial-container{
+	background: #efefef;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+#testimonial-container img{
+	margin-bottom: 20px;
+}
+#testimonial-container p{
+	color: #a1a1a1;
+}
+#footer{
+	background: #1e1e1e;
+	color: #cacaca;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+#footer h4{
+	color: #6c6c6c;
+	font-weight: 900;
+    font-size: 22px;
+}
+#footer-item-container{
+	padding-bottom: 20px;
+	border-bottom: 2px solid #363636;
+	margin-bottom: 20px;
+}
+.footer-items{
+	width: 23%;
+	float: left;
+	margin-right: 25px;
+}
+#footer-item-second p{
+	padding-left: 20px;
+	box-sizing: border-box;
+	position: relative;
+}
+#footer-item-second p::before{
+	content: "";
+	height: 15px;
+	width: 15px;
+	position: absolute;
+	left: -8px;
+	background-image: url('./../images/tweet.png');
+	background-repeat: no-repeat;
+	top: 5px;
+}
